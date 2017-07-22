@@ -36,7 +36,7 @@ let g:gutentags_init_user_func = get(g:, 'gutentags_init_user_func',
 let g:gutentags_add_default_project_roots = get(g:, 'gutentags_add_default_project_roots', 1)
 let g:gutentags_project_root = get(g:, 'gutentags_project_root', [])
 if g:gutentags_add_default_project_roots
-    let g:gutentags_project_root += ['.git', '.hg', '.svn', '.bzr', '_darcs', '_FOSSIL_', '.fslckout']
+    let g:gutentags_project_root += ['.git', '.hg', '.svn', '.bzr', '_darcs', '_FOSSIL_', '.fslckout', 'composer.json']
 endif
 
 let g:gutentags_project_root_finder = get(g:, 'gutentags_project_root_finder', '')
